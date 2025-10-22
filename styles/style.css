@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+
+* {
+    font-family: "Roboto Flex", sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+body {
+    background-color: #121212;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1D1D1D;
+    width: 70%;
+    margin-top: 30px;
+    border-radius: 30px;
+}
+
+.my-name {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.bar {
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    background-color: #48484851;
+    padding: 15px 0 15px 0;
+    border-radius: 20px;
+    font-weight: 500;
+    position: sticky;
+    top: 20px;
+    backdrop-filter: blur(30px);
+}
+
+.bar li {
+    cursor: pointer;
+    /* background-color: #fff; */
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    transition: 0.3s all;
+    font-size: 20px;
+}
+
+.bar li:hover {
+    background-color: #ffffff21;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 200vh;
+    margin-top: 30px;
+}
+
+main h1 {
+    font-size: 48px;
+}
+
+.about-me {
+    height: 40vh;
+    width: 70%;
+    background-color: #1D1D1D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me img {
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-left: 10px;
+}
+
+.about-me_right {
+    margin-left: 10px;
+}
+
+.about-me_right p {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.about-me_right button {
+    border: none;
+    outline: none;
+    background-color: #2F2F2F;
+    color: white;
+    padding: 15px 40px 15px 40px;
+    border-radius: 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s all;
+    font-weight: 500;
+}
+
+.about-me_right button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.my-skills {
+    height: 48vh;
+    width: 70%;
+    background-color: #1D1D1D;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.my-skills ul {
+    padding: 0;
+    list-style: none;
+    /* margin-left: 20px; */
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.my-skills ul li {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 90%;
+    background-color: #2F2F2F;
+    border-radius: 20px;
+    padding: 5px 20px 10px 20px;
+    margin: 10px 0 10px 0;
+}
+
+.skills-text {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.my-skills .progress {
+    background-color: rgba(255, 255, 255, 0.094);
+    width: 100%;
+    height: 10px;
+    margin-right: 130px;
+    border-radius: 20px;
+    display: flex;
+}
+
+#prg1 span {
+    width: 90%;
+    background-color: rgba(82, 255, 131, 0.718);
+    height: 10px;
+    border-radius: 20px;
+    text-align: end;
+}
+
+#prg2 span {
+    width: 80%;
+    background-color: rgba(117, 255, 82, 0.718);
+    height: 10px;
+    border-radius: 20px;
+    text-align: end;
+}
+
+#prg3 span {
+    width: 85%;
+    background-color: rgba(82, 255, 82, 0.718);
+    height: 10px;
+    border-radius: 20px;
+    text-align: end;
+}
+
+#prg4 span {
+    width: 60%;
+    background-color: rgba(206, 255, 82, 0.718);
+    height: 10px;
+    border-radius: 20px;
+    text-align: end;
+}
+
+.best-prj {
+    width: 70%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.project {
+    height: auto;
+    width: 320px;
+    background-color: #1D1D1D;
+    border-radius: 20px;
+}

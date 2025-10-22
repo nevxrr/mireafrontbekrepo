@@ -1,11 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="my-name">Егор Шипилов</h1>
+    </header>
+    <ul class="bar">
+        <li onclick="tomain()">Главная</li>
+        <li onclick="toprj()">Проекты</li>
+        <li onclick="toblog()">Дневник</li>
+        <li onclick="tocnt()">Контакты</li>
+    </ul>
+    <main>
+        <h1>Обо мне</h1>
+        <div class="about-me">
+            <img src="./images/photo.webp" alt="фото" draggable="false">
+            <div class="about-me_right">
+                <p>Привет! Я студент<br><br> <span
+                        style="color: rgba(255, 255, 255, 0.295); font-weight: 400;">Факультета ИПТИП, группа
+                        ЭФБО-14-24<br>
+                        Увлекаюсь веб-разработкой</span>
+                </p>
+                <button>Скачать резюме</button>
+            </div>
+        </div>
+        <h1>Мои навыки</h1>
+        <div class="my-skills">
+            <ul class="skills">
+                <li>
+                    <div class="skills-text">
+                        <p>HTML/CSS</p>
+                        <p>90%</p>
+                    </div>
+                    <div class="progress" id="prg1"><span></span></div>
+                </li>
+                <li>
+                    <div class="skills-text">
+                        <p>JavaScript</p>
+                        <p>80%</p>
+                    </div>
+                    <div class="progress" id="prg2"><span></span></div>
+                </li>
+                <li>
+                    <div class="skills-text">
+                        <p>Bootstrap</p>
+                        <p>85%</p>
+                    </div>
+                    <div class="progress" id="prg3"><span></span></div>
+                </li>
+                <li>
+                    <div class="skills-text">
+                        <p>React</p>
+                        <p>60%</p>
+                    </div>
+                    <div class="progress" id="prg4"><span></span></div>
+                </li>
+            </ul>
+        </div>
+        <h1>Лучшие проекты</h1>
+        <div class="best-prj">
+            <div class="project">
+                <img src="" alt="фото" draggable="false">
+            </div>
+            <div class="project">
+                <img src="" alt="фото" draggable="false">
+            </div>
+            <div class="project">
+                <img src="" alt="фото" draggable="false">
+            </div>
+        </div>
+    </main>
+    <footer>
+
+    </footer>
 </body>
+
 </html>
