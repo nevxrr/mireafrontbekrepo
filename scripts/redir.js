@@ -1,4 +1,5 @@
 function toproj(){
-    window.location.href = "mireafrontbekrepo/projects.html"
+    window.location.href = "/projects.html"
 
 }
+
