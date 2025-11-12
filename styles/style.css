@@ -67,7 +67,7 @@ main {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 200vh;
+    /* height: 200vh; */
     margin-top: 30px;
 }
 
@@ -210,8 +210,33 @@ main h1 {
 }
 
 .project {
-    height: auto;
-    width: 320px;
+    height: 400px;
+    width: 300px;
     background-color: #1D1D1D;
     border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+}
+
+.project img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.project h1{
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+footer{
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
 }
